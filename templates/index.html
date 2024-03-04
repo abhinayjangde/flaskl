@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask</title> 
-</head>
-<body>
+{% extends "layout.html" %}
+
+
+{% block body %}
+
     <form action="/greet" method="get">
         <input type="text" autocomplete="off" autofocus name="name" placeholder="Name">
         <button type="submit">Greet</button>
-    </form>
-</body>
-</html>
+    </form> 
+    
+    <!-- JavaScript Part  -->
+    <script>
+        document.title="Home"
+    </script>
+
+{% endblock %}
