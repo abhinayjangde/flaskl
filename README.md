@@ -3,7 +3,9 @@
 > Link - https://www.youtube.com/watch?v=-aqUek49iL8
 
 ## Quickstart
-
+```
+$ pip install flask
+```
 A minimal Flask application looks something like this:
 
 ```python
